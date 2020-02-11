@@ -1,0 +1,3 @@
+Navigation是用NavigationHost为容器，将NavigateFragment像栈一样弹入弹出实现页面切换，在Fragment中一般是在ActivityonCreate阶段进行各种控件的
+相应操作，要先使用NavController用于find绑定控件，然后进行控制器的navigate方法寻找切换字段，在mainactivity中也是如此，可以设置actionbar的显示，
+然后onsupportnavigateup,返回controller的navigateup（）。
